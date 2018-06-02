@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JSONJava">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JSONJava.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

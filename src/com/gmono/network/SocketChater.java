@@ -113,7 +113,7 @@ public class SocketChater {
             Object obj= null;
             //
             try {
-                obj = msgmgr.msgToObject(msgobj);
+                obj = msgmgr.msgToObject(msgobj).getValue();
             } catch (Exception e) {
                 e.printStackTrace();
             }

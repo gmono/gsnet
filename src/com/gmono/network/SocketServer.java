@@ -12,12 +12,11 @@ import java.util.function.Consumer;
  */
 public class SocketServer {
     ServerSocket socket=null;
-    AbstractMessageManager msgmgr=new CustomMessageManager();
+    AbstractMessageManager msgmgr=new ClassMessageManager();
     public SocketServer(int port){
-        try (ServerSocket socket = new ServerSocket(port)) {
+        try  {
+            ServerSocket socket = new ServerSocket(port);
             this.socket=socket;
-            //构建唯一的MessageManager
-
         }
         catch (Exception e){
             System.out.print("创建服务器Socket失败！");
@@ -73,6 +72,7 @@ public class SocketServer {
      * 启动服务器
      */
     public void Start() {
+        System.out.print("服务器正在运行中......\n");
         for(;;){
             Socket clientsoc= null;
             try {
@@ -83,6 +83,7 @@ public class SocketServer {
             } catch (IOException e) {
                 System.out.printf("服务器发生错误！\n");
                 e.printStackTrace();
+                break;
             }
 
         }

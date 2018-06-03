@@ -1,8 +1,8 @@
-package com.gmono;
+package com.gmono.network;
 
 import java.io.Serializable;
 
-@MessageType(msgType = "test")
+@CustomMessageType(msgType = "test")
 public class TestMsg implements Serializable {
     public TestMsg(){}
     public String name="gaozijian";

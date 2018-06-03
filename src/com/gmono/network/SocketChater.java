@@ -1,4 +1,4 @@
-package com.gmono;
+package com.gmono.network;
 
 import org.json.JSONObject;
 
@@ -12,7 +12,6 @@ import java.util.Dictionary;
 import java.util.Hashtable;
 import java.util.Scanner;
 import java.util.concurrent.*;
-import java.util.function.Function;
 
 /**
  * 端管理器 维护发送和接收两个线程同步队列
@@ -21,9 +20,9 @@ import java.util.function.Function;
 public class SocketChater {
     //线程池 每个进程中的socketchater共享此线程池
     static ExecutorService tpool= Executors.newCachedThreadPool();
-    protected MessageManager msgmgr=null;
+    protected AbstractMessageManager msgmgr=null;
     protected Socket socket=null;
-    public SocketChater(Socket socket,MessageManager msgmgr){
+    public SocketChater(Socket socket,AbstractMessageManager msgmgr){
         this.msgmgr=msgmgr;
         this.socket=socket;
     }
@@ -80,6 +79,11 @@ public class SocketChater {
     public <T> void setReceiveListener(Class<T> msgCls,ReceiveListener<T> listener){
         assert (listeners.get(msgCls)==null):"重复注册同一消息类型的监听器";
         listeners.put(msgCls,listener);
+    }
+    //设置默认的接收回调函数 始终触发
+    ReceiveListener default_listener=null;
+    public void setDefaultReceiveListener(ReceiveListener listener){
+        default_listener=listener;
     }
     SendedListener sendedListener=null;
     public void setSendedListener(SendedListener listener){
@@ -142,7 +146,8 @@ public class SocketChater {
             //发送
             print.println(msg.msgText);
             //触发事件 未来考虑改为单独发送事件线程和已发送id队列实现
-            this.sendedListener.sended(msg.ID);
+            if(this.sendedListener!=null)
+                this.sendedListener.sended(msg.ID);
         }
     }
 
@@ -159,7 +164,12 @@ public class SocketChater {
             //得到对应类型监听器
             ReceiveListener listener=listeners.get(obj.getClass());
             //调用监听器 触发事件
-            listener.receive(obj);
+            //默认监听器始终被触发
+            if(listener!=null)
+                listener.receive(obj);
+            if(default_listener!=null)
+                default_listener.receive(obj);
+
         }
     }
 

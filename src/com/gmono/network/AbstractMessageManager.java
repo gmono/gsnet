@@ -1,46 +1,30 @@
-package com.gmono;
+package com.gmono.network;
 
 import javafx.util.Pair;
 import org.json.JSONObject;
 
-import java.lang.annotation.Annotation;
-import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.util.Dictionary;
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Map;
 
-/**
- * 通用通信类 提供投递函数
- */
-public class MessageManager {
-    public MessageManager() {
+public abstract class AbstractMessageManager {
 
-    }
-    //同步容器 用于接收到的消息转换为对象
-    protected Dictionary<String,Class> msgTypeToClass=new Hashtable<>();
-
+    //msgtype相关 如果要改变msgtype处理方法 重写以下函数
     /**
      * 工具函数 用于获取一个对象的msgtype字符串
      * @param obj 对象
      * @return msgtype
      */
-    static String getMsgType(Object obj){
-        Class cls=obj.getClass();
-        MessageType msgtype=(MessageType) cls.getAnnotation(MessageType.class);
-        assert (msgtype!=null):"错误的消息对象，MsgType为空";
-        return msgtype.msgType();
-    }
+    protected abstract String getMsgType(Object obj);
+    protected abstract String getMsgTypeFromClass(Class cls);
+    protected abstract boolean msgTypeVaildation(String msgtype);
+    protected abstract Class getClassFromMsgtype(String msgtype);
 
     /**
      * 传入数据对象（javabean） 返回包装的msg对象
      * @param obj 数据对象
      * @return msg
      */
-     JSONObject objectToMsg(Object obj) throws IllegalAccessException {
-         //构建消息体
+    public JSONObject objectToMsg(Object obj) throws IllegalAccessException {
+        //构建消息体
         JSONObject jsonobj=new JSONObject();
         Field[] fields=obj.getClass().getFields();
         for(Field f:fields){
@@ -60,7 +44,7 @@ public class MessageManager {
         //获得消息头（类型)
         String msgtype=getMsgType(obj);
         //检测消息类型存在性
-        assert (msgTypeToClass.get(msgtype)!=null):"未注册的MsgType:"+msgtype;
+        assert msgTypeVaildation(msgtype):"未注册的MsgType:"+msgtype;
         //
         JSONObject retobj=new JSONObject();
         retobj.putOnce("msgtype",msgtype);
@@ -70,12 +54,12 @@ public class MessageManager {
 
     /**
      * 将一个消息的消息体转化为cons类的对象
-     * @param data
-     * @param cons
-     * @return
+     * @param data json数据对象（msg对象实体）
+     * @param cons 相关类
+     * @return 合成的类对象
      * @throws Exception
      */
-    protected Object jsonToObject(JSONObject data,Class cons) throws Exception {
+    private Object jsonToObject(JSONObject data,Class cons) throws Exception {
         //创建对应类对象并填充
         Object obj=cons.newInstance();
         //填充对象
@@ -117,20 +101,13 @@ public class MessageManager {
             String msgtype=jsonobj.getString("msgtype");
             JSONObject data=jsonobj.getJSONObject("data");
             //检测消息类型合法性
-            assert (msgTypeToClass.get(msgtype)!=null):"未注册的MsgType:"+msgtype;
+            assert msgTypeVaildation(msgtype):"未注册的MsgType:"+msgtype;
             //获取构造类
-            Class cons=msgTypeToClass.get(msgtype);
+            Class cons=getClassFromMsgtype(msgtype);
             //得到解析对象
             Object ret=jsonToObject(data,cons);
             return new Pair<>(cons,ret);
         }
         return null;
-    }
-    public boolean registerMsgType(Class cls){
-        MessageType msgtype=(MessageType)cls.getAnnotation(MessageType.class);
-        String tname=msgtype.msgType();
-        if(msgTypeToClass.get(tname)!=null) return false;
-        msgTypeToClass.put(tname,cls);
-        return true;
     }
 }

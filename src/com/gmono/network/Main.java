@@ -1,5 +1,4 @@
-package com.gmono;
-import javafx.util.Pair;
+package com.gmono.network;
 import org.json.JSONObject;
 
 
@@ -7,9 +6,11 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 	// write your code here
-        MessageManager manager=new MessageManager();
-        manager.registerMsgType(TestMsg.class);
-        manager.registerMsgType(TestMsg2.class);
+//        CustomMessageManager mgr=new CustomMessageManager();
+        ClassMessageManager mgr=new ClassMessageManager();
+        AbstractMessageManager manager=mgr;
+//        mgr.registerMsgType(TestMsg.class);
+//        mgr.registerMsgType(TestMsg2.class);
         JSONObject obj=manager.objectToMsg(new TestMsg());
         System.out.print(obj);
         TestMsg msg=(TestMsg)(manager.msgToObject(obj).getValue());

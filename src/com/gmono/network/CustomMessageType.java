@@ -1,4 +1,4 @@
-package com.gmono;
+package com.gmono.network;
 
 import java.lang.annotation.*;
 
@@ -8,6 +8,6 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 @Documented
-public @interface MessageType {
+public @interface CustomMessageType {
     public String msgType();
 }

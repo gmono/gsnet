@@ -5,52 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38e6e016-1f8c-474c-a9f8-42a47c12baa9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmono/app/main/Common.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmono/app/main/DeliveryMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmono/app/main/MyServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmono/app/window/ChatMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmono/app/window/ChatWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmono/app/window/IChatWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmono/app/window/ISendListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmono/app/window/LoginWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gsnet/communication/test/ServerMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gsnet/communication/test/TestServer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/AbstractMessageManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/ClassMessageManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/CustomMessageManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/CustomMessageType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/SocketChater$ReceiveListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/SocketChater$SendedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/SocketChater$WillSendMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/SocketChater.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/SocketClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/SocketServer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/SocketServer$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/SocketServer$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/SocketServer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/TestMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/TestMsg2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/test/ClientMain$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/test/ClientMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/network/test/ServerMain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/window/ILoginWindow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/window/LoginListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/gmono/network/TestMsg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/gmono/network/TestMsg2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/gmono/network/test/ServerMain.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gmono/network/AbstractMessageManager.java" afterPath="$PROJECT_DIR$/src/com/gsnet/network/AbstractMessageManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gmono/network/ClassMessageManager.java" afterPath="$PROJECT_DIR$/src/com/gsnet/network/ClassMessageManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gmono/network/CustomMessageManager.java" afterPath="$PROJECT_DIR$/src/com/gsnet/network/CustomMessageManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gmono/network/CustomMessageType.java" afterPath="$PROJECT_DIR$/src/com/gsnet/network/CustomMessageType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gmono/network/SocketChater.java" afterPath="$PROJECT_DIR$/src/com/gsnet/network/SocketChater.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gmono/network/SocketClient.java" afterPath="$PROJECT_DIR$/src/com/gsnet/communication/SocketClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gmono/network/SocketServer.java" afterPath="$PROJECT_DIR$/src/com/gsnet/communication/SocketServer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gmono/network/TestMsg.java" afterPath="$PROJECT_DIR$/src/com/gsnet/communication/test/TestMsg.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gmono/network/TestMsg2.java" afterPath="$PROJECT_DIR$/src/com/gsnet/communication/test/TestMsg2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gmono/network/test/ClientMain.java" afterPath="$PROJECT_DIR$/src/com/gsnet/communication/test/ClientMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gmono/window/ILoginWindow.java" afterPath="$PROJECT_DIR$/src/com/gmono/app/window/ILoginWindow.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gmono/window/LoginListener.java" afterPath="$PROJECT_DIR$/src/com/gmono/app/window/LoginListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gmono/window/WindowMain.java" afterPath="$PROJECT_DIR$/src/com/gmono/app/main/WindowMain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -445,12 +399,12 @@
       <updated>1527941885084</updated>
       <workItem from="1527941897934" duration="14402000" />
       <workItem from="1527994840571" duration="5194000" />
-      <workItem from="1528106412246" duration="4570000" />
+      <workItem from="1528106412246" duration="5618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24166000" />
+    <option name="totallyTimeSpent" value="25214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -465,10 +419,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3210024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19762419" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19762419" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />

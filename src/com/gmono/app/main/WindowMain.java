@@ -17,8 +17,10 @@ public class WindowMain {
         //创建连接
         try {
             client=new SocketClient(ip,port,Common.msgmgr);
+            client.Start();
         } catch (IOException e) {
             JOptionPane.showMessageDialog(null,"连接服务器失败！");
+            System.exit(2);
         }
         ShowMainWindow();
     }
@@ -56,6 +58,25 @@ public class WindowMain {
                 }
             }
         });
+
+        window.show();
+        //测试代码
+//        for(;;){
+//            DeliveryMessage dmsg=new DeliveryMessage();
+//            dmsg.username=myName;
+//            dmsg.msg=new ChatMessage();
+//            dmsg.msg.text="hello";
+//            try {
+//                client.Send(dmsg);
+//            } catch (IllegalAccessException e) {
+//                e.printStackTrace();
+//            }
+//            try {
+//                Thread.sleep(1000);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        }
     }
     public static void main(String[] args) {
         //显示登录窗口

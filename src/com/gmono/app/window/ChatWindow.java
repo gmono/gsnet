@@ -1,8 +1,9 @@
 package com.gmono.app.window;
 
+import javax.swing.*;
 import java.awt.*;
 
-public class ChatWindow extends Frame implements IChatWindow {
+public class ChatWindow extends JFrame implements IChatWindow {
     /**
      * 添加一个聊天室用户到列表中
      *

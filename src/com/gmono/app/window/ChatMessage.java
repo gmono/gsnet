@@ -1,8 +1,9 @@
 package com.gmono.app.window;
 
 /**
- * 通信的消息实体 被搭载在GroupMessage 或 PrivateMessage上互相传递
+ * 通信的消息实体 一般被搭载在GroupMessage 或 PrivateMessage上互相传递
  * 此类只包括内容
+ * 只与客户端相关与服务端无关（不带消息类型 用户等识别信息）
  */
 public class ChatMessage {
     /**

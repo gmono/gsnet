@@ -2,7 +2,10 @@ package com.gmono.app.main;
 
 import com.gmono.app.window.ChatMessage;
 
-public class DeliveryMessage {
+/**
+ *
+ */
+public class GroupMessage {
     public String username;
     public ChatMessage msg;
 

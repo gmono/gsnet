@@ -1,6 +1,6 @@
 package com.gsnet.communication.test;
 
-import com.gmono.app.main.DeliveryMessage;
+import com.gmono.app.main.GroupMessage;
 import com.gmono.app.window.ChatMessage;
 import com.gsnet.network.ClassMessageManager;
 import com.gsnet.network.SocketChater;
@@ -19,7 +19,7 @@ public class ClientMain {
         });
         client.Start();
         for(;;){
-            DeliveryMessage dmsg=new DeliveryMessage();
+            GroupMessage dmsg=new GroupMessage();
             dmsg.username="gaozijian";
             dmsg.msg=new ChatMessage();
             dmsg.msg.text="hello";

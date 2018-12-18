@@ -37,7 +37,7 @@ public class WindowMain {
             @Override
             public void send(ChatMessage msg) {
                 //构建传递消息
-                DeliveryMessage dmsg=new DeliveryMessage();
+                GroupMessage dmsg=new GroupMessage();
                 dmsg.username=myName;
                 dmsg.msg=msg;
                 try {
@@ -51,9 +51,9 @@ public class WindowMain {
 
         HashSet<String> users=new HashSet<>();
         //设置客户端接收到消息时的处理方法
-        client.setReceiveListener(DeliveryMessage.class, new SocketChater.ReceiveListener<DeliveryMessage>() {
+        client.setReceiveListener(GroupMessage.class, new SocketChater.ReceiveListener<GroupMessage>() {
             @Override
-            public void receive(DeliveryMessage msg) {
+            public void receive(GroupMessage msg) {
                 //接收到消息 如果不是自己发送的 则显示
                 window.received(msg.username,msg.msg);
                 //如果接收到了新用户的消息就添加一个用户到列表中

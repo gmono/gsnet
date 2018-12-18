@@ -4,10 +4,9 @@ import com.gsnet.communication.SocketServer;
 import com.gsnet.network.AbstractMessageManager;
 import com.gsnet.network.SocketChater;
 
-import javax.sound.sampled.Line;
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.Map;
 
 public class MyServer extends SocketServer {
     public MyServer(int port, AbstractMessageManager msgmgr) {
@@ -15,16 +14,17 @@ public class MyServer extends SocketServer {
     }
 
     HashSet<String> users=new HashSet<>();
+    Map<String,SocketChater> chaters=new HashMap<>();
     /**
      * 创建chater并加入列表后调用
-     *
+     * 在此对“与用户通信”的对象做设置，相当于对用户的行为做设置
      * @param chater 对话对象
      */
     @Override
-    protected void OnChaterCreated(SocketChater chater) {
-         chater.setReceiveListener(DeliveryMessage.class, new SocketChater.ReceiveListener<DeliveryMessage>() {
+    protected void OnChaterCreated(final SocketChater chater) {
+         chater.setReceiveListener(GroupMessage.class, new SocketChater.ReceiveListener<GroupMessage>() {
              @Override
-             public void receive(DeliveryMessage msg) {
+             public void receive(GroupMessage msg) {
                  //分发消息
                  SendMessage(msg);
                  //输出
@@ -51,9 +51,12 @@ public class MyServer extends SocketServer {
             @Override
             public void receive(InformMessage msg) {
                 //通知所有人 （包括发送者)
-                if(msg.type==0)
+                if(msg.type==0&&users.contains(msg.username))
                 {
+                    //加入用户集合
                     users.add(msg.username);
+                    //加入用户通信对象映射表
+                    chaters.put(msg.username,chater);
                     for(String m:users){
                         InformMessage smsg=new InformMessage();
                         smsg.username=m;
@@ -62,6 +65,26 @@ public class MyServer extends SocketServer {
                     }
                 }
 
+            }
+        });
+        //这里设置私聊消息的处理策略 转发给指定的人
+        chater.setReceiveListener(PrivateMessage.class, new SocketChater.ReceiveListener<PrivateMessage>() {
+            @Override
+            public void receive(PrivateMessage msg) {
+                //转发给对应的用户
+                if(!chaters.containsKey(msg.from_username)||!chaters.containsKey(msg.to_username))
+                {
+                    System.out.printf("错误消息,用户不存在:%s\n",msg.toString());
+                    return;
+                }
+                //转发给指定用户
+                SocketChater tochater=chaters.get(msg.from_username);
+                try {
+                    tochater.Send(msg);
+                    System.out.printf("转发一条Private消息:%s",msg.toString());
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                }
             }
         });
 

@@ -25,6 +25,7 @@ public class SocketChater {
     public SocketChater(Socket socket,AbstractMessageManager msgmgr){
         this.msgmgr=msgmgr;
         this.socket=socket;
+
     }
 
     /**
@@ -164,10 +165,10 @@ public class SocketChater {
             //得到对应类型监听器
             ReceiveListener listener=listeners.get(obj.getClass());
             //调用监听器 触发事件
-            //默认监听器始终被触发
+            //默认监听器在没有特定类型监听器时被调用
             if(listener!=null)
                 listener.receive(obj);
-            if(default_listener!=null)
+            else if(default_listener!=null)
                 default_listener.receive(obj);
 
         }

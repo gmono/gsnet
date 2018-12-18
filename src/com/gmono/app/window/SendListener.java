@@ -1,5 +1,5 @@
 package com.gmono.app.window;
 
-public interface ISendListener {
+public interface SendListener {
     void send(ChatMessage msg);
 }

@@ -12,6 +12,12 @@ public interface IChatWindow {
     void addUser(String user);
 
     /**
+     * 删除一个用户
+     * @param user 用户名
+     */
+    void removeUsser(String user);
+
+    /**
      * 当接收到消息时被调用
      * @param username 发消息的用户
      * @param msg 接收的消息
@@ -22,5 +28,5 @@ public interface IChatWindow {
      * 设置发送监听器
      * @param sendListener 当要发送消息时调用此监听器
      */
-    void setSendListener(ISendListener sendListener);
+    void setSendListener(SendListener sendListener);
 }

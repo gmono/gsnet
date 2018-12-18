@@ -1,5 +1,7 @@
 package com.gsnet.communication.test;
 
+import com.gmono.app.main.DeliveryMessage;
+import com.gmono.app.window.ChatMessage;
 import com.gsnet.network.ClassMessageManager;
 import com.gsnet.network.SocketChater;
 import com.gsnet.communication.SocketClient;
@@ -17,7 +19,11 @@ public class ClientMain {
         });
         client.Start();
         for(;;){
-            client.Send(new TestMsg());
+            DeliveryMessage dmsg=new DeliveryMessage();
+            dmsg.username="gaozijian";
+            dmsg.msg=new ChatMessage();
+            dmsg.msg.text="hello";
+            client.Send(dmsg);
             Thread.sleep(1000);
         }
     }

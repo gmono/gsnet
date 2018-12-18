@@ -1,4 +1,5 @@
 package com.gsnet.communication.test;
+import com.gmono.app.main.MyServer;
 import com.gsnet.communication.SocketServer;
 import com.gsnet.network.ClassMessageManager;
 

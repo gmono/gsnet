@@ -59,9 +59,9 @@ public abstract class SocketServer {
         SocketChater chater=new SocketChater(csoc,this.msgmgr);
         //加入chater列表 此时即使没有启动循环 仍然可调用chater的send函数
         chaters.add(chater);
-        chater.Start();
         //调用处理函数 处理chater
         this.OnChaterCreated(chater);
+        chater.Start();
         return chater;
     }
 
@@ -75,7 +75,7 @@ public abstract class SocketServer {
             try {
                 clientsoc = this.socket.accept();
                 SocketChater chater=this.CreateNewChater(clientsoc);
-                System.out.printf("IP:%s %d个客户端已连接:",
+                System.out.printf("IP:%s %d个客户端已连接\n\n",
                         clientsoc.getInetAddress().getHostAddress(),this.chaters.size());
             } catch (IOException e) {
                 System.out.printf("服务器发生错误！\n");

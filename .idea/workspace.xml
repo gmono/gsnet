@@ -1,22 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/com/gsnet/network/SocketChater.java" description="                listener.receive(obj);&#10;" line="168" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/gsnet/network/SocketChater.java" description="                listener.receive(obj);&#10;" line="169" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38e6e016-1f8c-474c-a9f8-42a47c12baa9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmono/app/main/ServerMain.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gsnet/network/TestMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gsnet/network/TestMsg2.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/gmono/app/main/InformMessage.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/window/ISendListener.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/gmono/app/window/ISendListener.java" afterPath="$PROJECT_DIR$/src/com/gmono/app/window/SendListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/DeliveryMessage.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/DeliveryMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/MyServer$1.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/MyServer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/MyServer$2.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/MyServer$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/MyServer$3.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/MyServer$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/MyServer.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/MyServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/ServerMain.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/ServerMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/WindowMain$1.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/WindowMain$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/WindowMain$2.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/WindowMain$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/WindowMain$3.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/WindowMain$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/WindowMain.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/main/WindowMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/window/ChatMessage.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/window/ChatMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/window/ChatWindow.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/window/ChatWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/window/IChatWindow.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/window/IChatWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/window/LoginWindow$1.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/window/LoginWindow$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/window/LoginWindow$2.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/window/LoginWindow$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/window/LoginWindow.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gmono/app/window/LoginWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gsnet/communication/SocketServer.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gsnet/communication/SocketServer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gsnet/communication/test/ClientMain$1.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gsnet/communication/test/ClientMain$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gsnet/communication/test/ClientMain.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gsnet/communication/test/ClientMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gsnet/communication/test/ServerMain.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gsnet/communication/test/ServerMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/chat_zuoye/com/gsnet/network/SocketChater.class" afterPath="$PROJECT_DIR$/out/production/chat_zuoye/com/gsnet/network/SocketChater.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gmono/app/main/Common.java" afterPath="$PROJECT_DIR$/src/com/gmono/app/main/Common.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gmono/app/main/DeliveryMessage.java" afterPath="$PROJECT_DIR$/src/com/gmono/app/main/DeliveryMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gmono/app/main/MyServer.java" afterPath="$PROJECT_DIR$/src/com/gmono/app/main/MyServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gmono/app/main/ServerMain.java" afterPath="$PROJECT_DIR$/src/com/gmono/app/main/ServerMain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gmono/app/main/WindowMain.java" afterPath="$PROJECT_DIR$/src/com/gmono/app/main/WindowMain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gmono/app/window/ChatMessage.java" afterPath="$PROJECT_DIR$/src/com/gmono/app/window/ChatMessage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gmono/app/window/ChatWindow.java" afterPath="$PROJECT_DIR$/src/com/gmono/app/window/ChatWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gmono/app/window/IChatWindow.java" afterPath="$PROJECT_DIR$/src/com/gmono/app/window/IChatWindow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gmono/app/window/LoginWindow.java" afterPath="$PROJECT_DIR$/src/com/gmono/app/window/LoginWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gsnet/communication/SocketServer.java" afterPath="$PROJECT_DIR$/src/com/gsnet/communication/SocketServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gsnet/communication/test/ClientMain.java" afterPath="$PROJECT_DIR$/src/com/gsnet/communication/test/ClientMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gsnet/communication/test/ServerMain.java" afterPath="$PROJECT_DIR$/src/com/gsnet/communication/test/ServerMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/gsnet/network/SocketChater.java" afterPath="$PROJECT_DIR$/src/com/gsnet/network/SocketChater.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,28 +52,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/chat_zuoye$ServerMain.coverage" NAME="ServerMain Coverage Results" MODIFIED="1528119100825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ServerMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gsnet/communication/test/ServerMain.java">
+      <file leaf-file-name="SocketServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gsnet/communication/SocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="75" lean-forward="false" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gsnet/communication/test/ClientMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="60" column="28" lean-forward="false" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,8 +70,8 @@
       <file leaf-file-name="LoginWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/LoginWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+            <state relative-caret-position="780">
+              <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,24 +79,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IChatWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/IChatWindow.java">
+      <file leaf-file-name="ChatWindow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/ChatWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="390">
+              <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+              <folding>
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#1974#1975#0" expanded="true" />
+                <element signature="e#2014#2015#0" expanded="true" />
+                <element signature="e#2787#2788#0" expanded="true" />
+                <element signature="e#2833#2834#0" expanded="true" />
+                <element signature="e#3447#3448#0" expanded="true" />
+                <element signature="e#3486#3487#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeliveryMessage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/DeliveryMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/ChatWindow.java">
+      <file leaf-file-name="InformMessage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/InformMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,18 +121,18 @@
       <file leaf-file-name="ChatMessage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/ChatMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            <state relative-caret-position="120">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WindowMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/WindowMain.java">
+      <file leaf-file-name="SocketChater.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gsnet/network/SocketChater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+            <state relative-caret-position="60">
+              <caret line="104" column="25" lean-forward="true" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,18 +143,18 @@
       <file leaf-file-name="ServerMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/ServerMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+            <state relative-caret-position="210">
+              <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Common.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/Common.java">
+      <file leaf-file-name="WindowMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/WindowMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="510">
+              <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,12 +165,10 @@
       <file leaf-file-name="MyServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/MyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="1470">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JSONJava.jar!/org/json/CDL.class" />
-        <option value="$PROJECT_DIR$/src/com/gmono/Test.java" />
         <option value="$PROJECT_DIR$/src/com/gmono/MessageType.java" />
         <option value="$PROJECT_DIR$/src/com/gmono/Chater.java" />
         <option value="$PROJECT_DIR$/src/com/gmono/TestMsg2.java" />
@@ -198,22 +226,26 @@
         <option value="$PROJECT_DIR$/src/com/gmono/window/IChatWindow.java" />
         <option value="$PROJECT_DIR$/src/com/gmono/app/window/DeliveryMessage.java" />
         <option value="$PROJECT_DIR$/src/com/gmono/app/window/ISendListener.java" />
-        <option value="$PROJECT_DIR$/src/com/gmono/app/main/DeliveryMessage.java" />
         <option value="$PROJECT_DIR$/src/com/gmono/app/window/LoginListener.java" />
         <option value="$PROJECT_DIR$/src/com/gmono/communication/SocketServer.java" />
-        <option value="$PROJECT_DIR$/src/com/gmono/app/window/IChatWindow.java" />
         <option value="$PROJECT_DIR$/src/com/gmono/app/window/ILoginWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/gmono/app/main/MyServer.java" />
         <option value="$PROJECT_DIR$/src/com/gmono/communication/test/TestServer.java" />
         <option value="$PROJECT_DIR$/src/com/gmono/communication/test/ServerMain.java" />
         <option value="$PROJECT_DIR$/src/com/gsnet/communication/test/TestMsg2.java" />
-        <option value="$PROJECT_DIR$/src/com/gmono/app/window/LoginWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/gmono/app/window/ChatWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/gmono/app/window/ChatMessage.java" />
-        <option value="$PROJECT_DIR$/src/com/gsnet/communication/test/ClientMain.java" />
         <option value="$PROJECT_DIR$/src/com/gmono/app/main/Common.java" />
+        <option value="$PROJECT_DIR$/src/com/gmono/app/window/ChatMessage.java" />
+        <option value="$PROJECT_DIR$/src/com/gmono/app/main/DeliveryMessage.java" />
+        <option value="$PROJECT_DIR$/src/com/gsnet/communication/test/ClientMain.java" />
+        <option value="$PROJECT_DIR$/src/com/gsnet/communication/SocketServer.java" />
+        <option value="$PROJECT_DIR$/src/com/gsnet/communication/test/ServerMain.java" />
         <option value="$PROJECT_DIR$/src/com/gmono/app/main/ServerMain.java" />
+        <option value="$PROJECT_DIR$/src/com/gmono/app/window/IChatWindow.java" />
         <option value="$PROJECT_DIR$/src/com/gmono/app/main/WindowMain.java" />
+        <option value="$PROJECT_DIR$/src/com/gsnet/network/SocketChater.java" />
+        <option value="$PROJECT_DIR$/src/com/gmono/app/main/InformMessage.java" />
+        <option value="$PROJECT_DIR$/src/com/gmono/app/window/LoginWindow.java" />
+        <option value="$PROJECT_DIR$/src/com/gmono/app/main/MyServer.java" />
+        <option value="$PROJECT_DIR$/src/com/gmono/app/window/ChatWindow.java" />
       </list>
     </option>
   </component>
@@ -224,8 +256,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="413" />
-    <option name="width" value="1400" />
+    <option name="x" value="458" />
+    <option name="y" value="16" />
+    <option name="width" value="1100" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -335,6 +368,14 @@
               <item name="communication" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="chat_zuoye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chat_zuoye" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gsnet" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -400,7 +441,7 @@
     </configuration>
     <configuration name="ServerMain" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.gsnet.communication.test.ServerMain" />
+      <option name="MAIN_CLASS_NAME" value="com.gmono.app.main.ServerMain" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -466,12 +507,12 @@
       <workItem from="1527941897934" duration="14402000" />
       <workItem from="1527994840571" duration="5194000" />
       <workItem from="1528106412246" duration="6174000" />
-      <workItem from="1528115681384" duration="2576000" />
+      <workItem from="1528115681384" duration="13143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28346000" />
+    <option name="totallyTimeSpent" value="38913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -488,18 +529,19 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816228" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3069874" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3210024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3069874" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31822917" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816228" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20086393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -523,27 +565,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/gsnet/communication/test/TestMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gsnet/communication/test/TestMsg2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/WindowMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
@@ -560,13 +586,13 @@
           <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/ISendListener.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/SendListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
@@ -589,7 +615,7 @@
         <state relative-caret-position="120">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -644,6 +670,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#874#875#0" expanded="false" />
+            <element signature="e#930#931#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -681,6 +712,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#874#875#0" expanded="false" />
+            <element signature="e#930#931#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -742,13 +778,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gsnet/network/ClassMessageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#874#875#0" expanded="false" />
+            <element signature="e#930#931#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -759,28 +793,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gsnet/network/AbstractMessageManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chat_zuoye.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/DeliveryMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,37 +808,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gsnet/communication/SocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/ILoginWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gsnet/communication/test/TestServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -834,7 +824,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/ISendListener.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/SendListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -850,18 +840,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/IChatWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/net/Socket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="207" column="11" lean-forward="false" selection-start-line="207" selection-start-column="11" selection-end-line="207" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_77/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="300" column="30" lean-forward="false" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gsnet/network/AbstractMessageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -874,40 +882,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gsnet/network/SocketChater.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gsnet/network/ClassMessageManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="504">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gsnet/communication/test/ClientMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gsnet/communication/test/TestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#796#797#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gsnet/communication/test/ServerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="75" lean-forward="false" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+        <state relative-caret-position="268">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/ChatWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gsnet/communication/SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="480">
+          <caret line="60" column="28" lean-forward="false" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gsnet/network/SocketChater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="104" column="25" lean-forward="true" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/IChatWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/LoginWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="780">
+          <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -916,38 +958,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/ChatMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        <state relative-caret-position="120">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gsnet/communication/test/ClientMain.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/DeliveryMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/InformMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/MyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/Common.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="1470">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -956,18 +992,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/ServerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        <state relative-caret-position="210">
+          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmono/app/main/WindowMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+        <state relative-caret-position="510">
+          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmono/app/window/ChatWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding>
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+            <element signature="e#2787#2788#0" expanded="true" />
+            <element signature="e#2833#2834#0" expanded="true" />
+            <element signature="e#3447#3448#0" expanded="true" />
+            <element signature="e#3486#3487#0" expanded="true" />
           </folding>
         </state>
       </provider>

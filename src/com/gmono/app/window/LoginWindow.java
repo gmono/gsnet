@@ -23,20 +23,33 @@ public class LoginWindow extends JFrame implements ILoginWindow {
      */
     public LoginWindow(){
         super("登陆界面");
-        setSize(300,200); setLayout(new GridLayout(5, 2,5,5));
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        add(new Label("          姓名"));
+        setSize(500,300); setLayout(new GridLayout(5, 2,5,5));
+        Label l1=new Label("Username");
+        l1.setAlignment(Label.CENTER);
+        add(l1);
+
         JTextField t1=new JTextField();
         add(t1);
-        add(new Label("          密码"));
+
+        l1=new Label("Password");
+        l1.setAlignment(Label.CENTER);
+        add(l1);
         JTextField t2=new JTextField();
         add(t2);
-        add(new Label("          IP"));
+
+
+        l1=new Label("IP");
+        l1.setAlignment(Label.CENTER);
+        add(l1);
         JTextField t3=new JTextField();
         add(t3);
-        add(new Label("          Port"));
+
+        l1=new Label("Port");
+        l1.setAlignment(Label.CENTER);
+        add(l1);
         JTextField t4=new JTextField();
         add(t4);
+
         JButton b1= new JButton("登陆");
         add(b1);
         JButton b2= new JButton("注册");
@@ -45,14 +58,23 @@ public class LoginWindow extends JFrame implements ILoginWindow {
         b1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                setVisible(false);
-                listener.login(t1.getText(),t2.getText(),t3.getText(),Integer.parseInt(t4.getText()));
+
+                try {
+                    listener.login(t1.getText(), t2.getText(), t3.getText(), Integer.parseInt(t4.getText()));
+                    setVisible(false);
+                }catch (Exception x){
+                    JOptionPane.showMessageDialog(null,"输入错误！");
+                }
             }
         });
         b2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                listener.register(t1.getText(),t2.getText(),t3.getText(),Integer.parseInt(t4.getText()));
+                try {
+                    listener.register(t1.getText(), t2.getText(), t3.getText(), Integer.parseInt(t4.getText()));
+                }catch (Exception x){
+                    JOptionPane.showMessageDialog(null,"输入错误！");
+                }
             }
         });
     }
